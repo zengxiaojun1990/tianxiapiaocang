@@ -1,0 +1,40 @@
+.Header{
+    height:45px;
+    background:#b32727;
+    position: fixed;
+    top:0;
+    width:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    z-index: 10;
+    
+    ul{
+        display:flex;
+        width:130px;
+        background:#b32727;
+        margin:0 auto;
+        height:25px;;
+        color:#000;
+        line-height:25px;
+        border-radius: 7px;
+        border:1px solid #fff;
+        .active{
+            color:rgb(240, 13, 81);
+            background:#fff;
+         
+        }
+        li{
+            flex-grow: 1;
+            text-align: center;
+        a{
+            display:block;
+            height:100%;
+            width:100%;
+            font-size:14px;
+            color:#fff;
+        }    
+        }
+    }
+
+}

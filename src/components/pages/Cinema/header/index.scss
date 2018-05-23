@@ -1,0 +1,46 @@
+
+
+.header .am-navbar {
+    background: #b82020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .serch{
+    position: fixed;
+    top: 45px;
+    width: 100%;
+}
+.header{
+    position: static;
+    top:0;
+   .am-navbar {
+    background: rgb(184, 32, 32);
+
+} 
+}
+.serch{
+    height:30px;
+    width:100%;
+    display:flex;
+    padding-top:10px;
+    background:#fff;
+    input{
+        height:25px;
+        width:75%;
+        border-radius: 5px;
+        border:1px solid #aaa;
+        margin-left:15px;
+        color:#eee;
+    }
+    button{
+        height:29px;
+        margin-left:15px;
+        border:1px solid red;
+        background:#fff;
+        width:15%;
+        border-radius: 5px;
+    }
+
+}
+

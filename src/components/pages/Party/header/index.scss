@@ -1,0 +1,34 @@
+.Theader{
+    height:45px;
+    width:100%;
+    line-height:45px;
+    text-align: center;
+    background:#b32727;
+    position: fixed;
+    top:0;
+    color:#fff;
+    font-size:20px;
+}
+.TemHeader{
+    img{
+        height:299px;
+        width:100%;
+        padding-top:45px;
+    }
+    ul{
+        display: flex;
+        width:100%;
+        height:60px;
+        align-items: center;
+        background:#fffaed;
+        justify-content: space-around;
+        li{
+            border:1px solid red;
+            border-radius: 8px;
+            height:30px;
+            width:20%;
+            line-height:30px;
+            text-align: center
+        }
+    }
+}

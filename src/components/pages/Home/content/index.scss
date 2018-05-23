@@ -1,0 +1,61 @@
+.contentBox{
+    height:1.26rem;
+    width:100%;
+    padding:5px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    .contentImg{
+        width:25%;
+        padding:0 5px;
+        img{
+            height:1.2rem;
+            width:100%;
+        }
+    }
+    .contentDetail{
+        width:50%;
+        padding:0 5px;
+        h3{
+            font-size:16px;
+            height:30px;
+            color:#000;
+ 
+            margin-bottom:10px;
+        }
+        p{
+            font-size:12px;
+            height:30px;
+            color:#bbb;
+           
+        }
+        h3,p{
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        }
+        
+        
+    }
+    .contentBuy{
+        width:25%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        a{
+            height:30px;
+            width:60px;
+            border:1px solid red;
+            border-radius: 5px;
+            display: block;
+            color:red;
+            font-size:16px;
+            line-height:30px;
+            text-align: center;
+        }
+    }
+}
+.Content{
+    padding-bottom:55px;
+    padding-top:270px;
+}

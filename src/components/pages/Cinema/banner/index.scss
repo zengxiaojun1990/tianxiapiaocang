@@ -1,0 +1,29 @@
+.CimDetail{
+    height:87px;
+    width:100%;
+    border-bottom:1px solid #ccc;
+    padding-top:10px;
+    p{
+        font-size:16px;
+        margin-bottom:10px;
+       
+    }
+    span{
+        width:100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #999999;
+        font-size:14px;
+    }
+    i{
+        color:red;
+        width:100%;
+        display:block;
+        margin-top:10px;
+    }
+}
+.Cinemap{
+    padding-top:75px;
+    padding-bottom:45px;
+}
