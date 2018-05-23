@@ -38,7 +38,7 @@ class Banner extends Component{
                         return (
                             <div key = {item.id} className="swiper-slide">
                                 <div className="img-box img-loading">
-                                    <img width="100%" src={item.imageUrl} alt=""/>
+                                    <img height="154px" width="100%" src={item.imageUrl} alt=""/>
                                 </div>
                             </div>
                         )
