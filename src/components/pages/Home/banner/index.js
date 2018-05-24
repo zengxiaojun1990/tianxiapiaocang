@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import Swiper from 'swiper';
 import axios from 'axios'
+
 import './index.scss'
 class Banner extends Component{
      constructor(props){
