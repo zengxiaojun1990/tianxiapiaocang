@@ -1,6 +1,6 @@
 
 
 const state ={
-    num :1
+    userInfo : localStorage.userInfo ? JSON.parse( localStorage.userInfo ) : null
 }
 export default state
